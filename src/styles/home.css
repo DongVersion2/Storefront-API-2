@@ -1,5 +1,5 @@
 .product-item img {
-    zoom: 0.5;
+    width: 100%;
 }
 h1 {
     text-align: center;
@@ -11,6 +11,7 @@ h1 {
 .product-item {
     border: 1px solid #bba3a3;
     padding: 20px;
+    background-color: #d7d3d3;
 }
 button.add-to-cart-button {
     width: 100%;
@@ -22,10 +23,53 @@ button.add-to-cart-button {
 .go-to-cart {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .go-to-cart button {
     background-color: #000;
     color: #fff;
     padding: 10px 20px;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 24px;
+}
+.search-container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+input.search-input {
+    padding: 5px 10px;
+}
+a.product-list-title {
+    text-decoration: none;
+    color: #000;
+}
+.no-products {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    border: 1px solid #efe4e4;
+    padding: 20px;
+}
+.loading-spinner {
+    text-align: center;
+}
+.filter-container {
+    text-align: center;
+}
+
+.filter-container select {
+    padding: 5px 10px;
+}
+.pagination {
+    text-align: center;
+    margin: 10px 0;
+}
+.pagination button{
+    padding: 5px 20px;
+    background-color: #000;
+    color: #fff;
     text-transform: capitalize;
 }
